@@ -17,7 +17,7 @@ const binarySearch = (arr, item) => {
         const left = arr.splice(0,mid);
         return binarySearch(left, item);
     }
-}
+};
 
 let foundIt = binarySearch(items, findMe);
 console.log(foundIt);
